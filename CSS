@@ -1,0 +1,46 @@
+/* Resetando as margens e preenchimentos padrão */
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilizando a imagem */
+img {
+    display: block; /* Faz a imagem um elemento de bloco */
+    margin: 20px auto; /* Centraliza a imagem horizontalmente com uma margem superior e inferior de 20 pixels */
+}
+
+/* Estilizando o título da página */
+h1 {
+    text-align: center; /* Centraliza o texto */
+    color: #c3c3c3; /* Cor do texto */
+    font-family: Arial, sans-serif; /* Fonte da família Arial ou uma fonte genérica sans-serif */
+}
+
+/* Estilizando a barra de navegação */
+nav {
+    background-color: linear-gradient(to top, #410000, #4a0002, #540003, #5d0003, #670002, #730003, #7f0003, #8b0003, #9d0004, #ae0003, #c10002, #d30000); /* Cor de fundo */
+    padding: 10px 0; /* Preenchimento superior e inferior de 10 pixels, preenchimento lateral de 0 */
+}
+
+/* Estilizando os links da barra de navegação */
+nav a {
+    text-decoration: none; /* Remove sublinhado padrão dos links */
+    color: #333; /* Cor do texto */
+    margin: 0 10px; /* Margem entre os links */
+    font-weight: bold; /* Negrito */
+}
+
+/* Estilizando o rodapé */
+footer {
+    background-color: #333; /* Cor de fundo */
+    color: #fff; /* Cor do texto */
+    padding: 20px 0; /* Preenchimento superior e inferior de 20 pixels, preenchimento lateral de 0 */
+    text-align: center; /* Centraliza o texto */
+}
+
+/* Estilizando os links no rodapé */
+footer a {
+    color: #fff; /* Cor do texto */
+    text-decoration: underline; /* Adiciona sublinhado aos links */
+}
